@@ -33,7 +33,7 @@
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
-    
+
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
@@ -51,7 +51,11 @@
     {% elsif post.excerpt and site.read_more == 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
-    
+
+    {% if post.recognition %}
+      <p>Recognized as {{post.recognition}}</p>
+    {% endif %}
+
     {% if post.citation and post.paperurl and post.slidesurl %}
       <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a></p>
     {% elsif post.citation and post.paperurl %}
@@ -61,10 +65,15 @@
     {% elsif post.citation %}
       <p>Recommended citation: {{ post.citation }}</p>
     {% elsif post.paperurl %}
-      <p><a href=" {{ post.paperurl }} ">Download Paper</a></p>
-    {% elsif post.slidesurl %}
-      <p>Download <a href="{{ post.slidesurl }}">Download Slides</a></p></p>
+      <p>-- Publication available <a href=" {{ post.paperurl }} "><u>here</u></a></p>
     {% endif %}
+
+    {% if post.preprint_url and post.arxiv_url %}
+      <p>-- Preprint available <a href=" {{ post.preprint_url }} "><u>here</u></a>, or find it on <a href=" {{ post.arxiv_url }} "><u>Arxiv.org</u></a></p>
+    {% elsif post.preprint_url %}
+      <p>-- Preprint available <a href=" {{ post.preprint_url }} "><u>here</u></a></p>
+    {% elsif post.arxiv_url %}
+      <p>-- Preprint available  on <a href=" {{ post.arxiv_url }} "><u>Arxiv.org</u></a></p>    {% endif %}
 
   </article>
 </div>
