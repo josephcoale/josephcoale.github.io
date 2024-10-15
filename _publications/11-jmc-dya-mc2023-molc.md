@@ -3,7 +3,7 @@ title: "Multilevel Method for Thermal Radiative Transfer Problems with Method of
 
 collection: publications
 
-permalink: /publication/9-jmc-dya-mc2023-molc
+permalink: /publication/11-jmc-dya-mc2023-molc
 
 excerpt: ''
 

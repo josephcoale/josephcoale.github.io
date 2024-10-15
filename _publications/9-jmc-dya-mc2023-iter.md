@@ -3,7 +3,7 @@ title: "A Nonlinear Projection-Based Iteration Scheme with Cycles over Multiple 
 
 collection: publications
 
-permalink: /publication/10-jmc-dya-mc2023-iter
+permalink: /publication/9-jmc-dya-mc2023-iter
 
 excerpt: ''
 

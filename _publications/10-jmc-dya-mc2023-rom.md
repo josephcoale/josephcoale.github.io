@@ -3,7 +3,7 @@ title: "A Reduced-Order Model for Thermal Radiative Transfer Problems Based on P
 
 collection: publications
 
-permalink: /publication/11-jmc-dya-mc2023-rom
+permalink: /publication/10-jmc-dya-mc2023-rom
 
 excerpt: ''
 
