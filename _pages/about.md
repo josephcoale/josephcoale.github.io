@@ -15,14 +15,14 @@ redirect_from:
 
 Education
 ======
-* Ph.D., Nuclear Engineering - [NCSU](https://www.ne.ncsu.edu/), 2022<br/>
+* Ph.D., Nuclear Engineering - [NCSU](https://www.ne.ncsu.edu/)<br/>
   * Advisor: [Dr. Dmitriy Anistratov](https://www.ne.ncsu.edu/people/dyanistr/).<br/>
   * Dissertation [download](http://josephcoale.github.io/files/JosephCoale_Dissertation.pdf), also archived [here](https://repository.lib.ncsu.edu/handle/1840.20/39782).<br/>
 
-* M.S., Nuclear Engineering - [NCSU](https://www.ne.ncsu.edu/), 2019<br/>
+* M.S., Nuclear Engineering - [NCSU](https://www.ne.ncsu.edu/)<br/>
   * Thesis [download](http://josephcoale.github.io/files/jmc-ms-thesis.pdf), also archived [here](https://repository.lib.ncsu.edu/handle/1840.20/37157).<br/>
 
-* B.S., Nuclear Engineering - [NCSU](https://www.ne.ncsu.edu/), 2018
+* B.S., Nuclear Engineering - [NCSU](https://www.ne.ncsu.edu/)
 
 Research Areas
 ======
